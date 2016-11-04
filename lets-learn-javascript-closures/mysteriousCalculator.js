@@ -18,5 +18,5 @@ function toFixedTwoPlaces(value) {
 }
 
 var myCalculator = mysteriousCalculator(10.01, 2.01);
-myCalculator.add() // 15.02
-myCalculator.subtract() // 5.00
+console.log(myCalculator.add()); // 15.02
+console.log(myCalculator.subtract()); // 5.00
